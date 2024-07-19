@@ -96,3 +96,33 @@
 // (num % 2 === 0) ? console.log("Even"):console.log("Odd");
 
 
+
+let year = 2100;
+
+// if (year % 4 === 0) {
+//     if (year % 100 === 0) {
+//         if (year % 400 === 0) {
+//             console.log("Leap year");
+//             return;
+//         }
+//         console.log("Not a leap year");
+//         return;
+//     }
+//     console.log("Leap year");
+// } else {
+//     console.log("Not a leap year");
+// }
+
+
+if ((year % 4 === 0) && (year % 100 != 0)) {
+    console.log("Leap Year");
+}
+else if ((year % 100 === 0) && (year % 400 === 0)) {
+    console.log("Leap Year");
+}
+else {
+    console.log("Not a leap year");
+}
+
+
+
