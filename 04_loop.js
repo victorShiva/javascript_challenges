@@ -36,6 +36,8 @@
 
 
 
+// ---------------------------------- find factorial 
+
 // let num = 4;
 // let factorial = 1;
 // do {
@@ -44,6 +46,8 @@
 // } while (num >= 1)
 // console.log(factorial);
 
+
+//--------------------------------------print star pattern
 
 // for (let i = 0; i < 5; i++) {
 //     let star = "";
@@ -54,6 +58,8 @@
 // }
 
 
+// ------------------ print 1 to 10 number skip the number of 5
+
 
 // for (let i = 1; i <= 10; i++) {
 //     if (i == 5) continue;
@@ -61,6 +67,8 @@
 // }
 
 
+
+// -------------------------------- print 1 to 10 number  execution terminate when occur the number 7 find
 
 // for (let i = 1; i <= 10; i++) {
 //     console.log(i);
