@@ -1,3 +1,6 @@
+
+//------------------ print the number is EVEN or Odd 
+
 // function checkNumber(num) {
 //     (num % 2 === 0) ? console.log("EVEN") : console.log("ODD");
 // }
@@ -7,6 +10,8 @@
 // checkNumber(1);
 // checkNumber(2);
 
+
+// --------------------------------------- find the squre of any number
 
 // function square(num) {
 //     return num * num;
@@ -60,6 +65,9 @@
 // console.log(product(5, 4));
 // console.log(product(9));
 
+
+
+// ------// # write a function that take two parameters first is string and second parameter Provide a default value and console the person info
 
 // function greeting(person, age = 22) {
 //     return `Hello My Name Is ${person} and age is ${age}`;
