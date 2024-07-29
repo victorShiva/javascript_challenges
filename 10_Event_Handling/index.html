@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handing</title>
+</head>
+<style>
+    .visible {
+        visibility: hidden;
+    }
+</style>
+
+<body>
+    <div>
+        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officiis iusto esse mollitia
+            reiciendis
+            blanditiis. Illum unde ea aliquam nesciunt, voluptatem suscipit eaque, asperiores, error voluptatibus dicta
+            iste culpa perferendis?</p>
+        <button id="change-text">Change Text</button>
+    </div>
+    <div>
+        <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/2023/10/free-images.jpg"
+            alt="" height="150px" width="300px" id="poster">
+        <div>
+            <button id="img-hide">Img-hide</button>
+        </div>
+    </div>
+
+    <div>
+        <p id="para2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nisi dolores odit vero neque autem saepe
+            facilis ea, enim quos ipsam porro! Eos obcaecati quas quos illo enim, fuga est accusamus quasi earum
+            quibusdam expedita explicabo numquam nobis omnis eveniet cum asperiores commodi ipsum provident, aliquam
+            alias! Mollitia iusto nostrum delectus id cumque similique reiciendis omnis adipisci incidunt quas, quisquam
+            hic possimus ratione maiores vero sint. Molestias vitae modi illum porro nemo consequuntur exercitationem,
+            sit aliquid aliquam itaque? Consectetur, ea ullam assumenda maxime doloremque, illum ut quis, ratione
+            possimus architecto distinctio in neque? Consequatur architecto error cum officiis, quos eligendi.
+        </p>
+    </div>
+    <input type="text" id="inputField" placeholder="Type something..." />
+    <input type="text" id="inputField2" placeholder="Type something..." />
+    <p id="para3"></p>
+
+    <form action="/acition">
+        <div>
+            <input type="text" placeholder="Input some text" id="username" name="user">
+        </div>
+        <div>
+            <textarea name="comment" id="comment" cols="30" rows="6"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <p id="myteam"></p>
+    <label for="teams">Select Your Team : </label>
+    <select name="team" id="teams">
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Astraliya">Astraliya</option>
+    </select>
+
+    <ul class="parent">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ul>
+</body>
+<script src="./index.js"></script>
+
+</html>
