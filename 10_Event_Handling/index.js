@@ -69,7 +69,8 @@ paragraph2.addEventListener('mouseout', function () {
 
 //# Add a keydown event listener to an input field that log s the key press to the console.
 
-document.querySelector('#inputField').addEventListener('keydown', showChar);
+const firstInput = document.querySelector('#inputField')
+firstInput.addEventListener('keydown', showChar);
 
 function showChar(e) {
     console.log(e.key);
